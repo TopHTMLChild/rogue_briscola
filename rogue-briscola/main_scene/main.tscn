@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://g0yha7sri7ma"]
+
+[ext_resource type="Script" uid="uid://bvyhwumwswer6" path="res://Scripts/deck_node.gd" id="1_j04as"]
+[ext_resource type="Script" uid="uid://bkjduet2oum6i" path="res://Scripts/hand_manager.gd" id="1_p5fyt"]
+[ext_resource type="Texture2D" uid="uid://dkgb54ud7djfw" path="res://Assets/bgmain3.png" id="2_x58px"]
+
+[node name="main" type="Node2D"]
+
+[node name="deck_node" type="Node2D" parent="."]
+script = ExtResource("1_j04as")
+
+[node name="hand_manager" type="Node2D" parent="."]
+script = ExtResource("1_p5fyt")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.7490196, 1, 0.3529412, 0.44313726)
+z_index = -5
+position = Vector2(718, 648)
+rotation = 1.5707964
+scale = Vector2(2, 2)
+texture = ExtResource("2_x58px")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(900, 1050)
