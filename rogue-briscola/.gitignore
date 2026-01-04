@@ -1,0 +1,31 @@
+# ======================
+# Godot
+# ======================
+
+# Godot 4 - cache editor
+.godot/
+
+# Godot 3 - import
+.import/
+
+# Export
+.export/
+.export_presets.cfg
+
+# Traduzioni generate
+*.translation
+
+# ======================
+# Editor / IDE
+# ======================
+
+.vscode/
+.idea/
+*.code-workspace
+
+# ======================
+# OS
+# ======================
+
+.DS_Store
+Thumbs.db
